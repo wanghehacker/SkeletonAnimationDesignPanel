@@ -30,10 +30,10 @@
 			
 			public static const VIEW_SELECT_BONE:String = "viewSelectBone";
 			public static const VIEW_CHANGE_BONE_PARENT:String = "viewChangeBoneParent";
-			
-			[Embed(source="./assets/play_icon.png", mimeType = "application/octet-stream")]
+			//Embed(source="../assets/play_icon.png")
+			[Embed(source="../assets/play_icon.png", mimeType = "application/octet-stream")]
 			private static const PlayBitmap:Class;
-			[Embed(source="./assets/pause_icon.png", mimeType = "application/octet-stream")]
+			[Embed(source="../assets/pause_icon.png", mimeType = "application/octet-stream")]
 			private static const PauseBitmap:Class;
 			
 			private static const MIN_SCALE:Number = 0.2;

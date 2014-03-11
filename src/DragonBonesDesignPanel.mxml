@@ -426,6 +426,7 @@
 					  click="popUpHelpWindow()"
 					  />
 			<s:Spacer width="100%"/>
+			
 			<mx:ViewStack id="onlineStatus" height="100%">
 				<s:NavigatorContent height="100%">
 					<s:Label id="offlineLabel" height="100%" verticalAlign="middle" color="#999999" text="offline" 
@@ -438,6 +439,7 @@
 							 click="downloadNewVersion()"/>
 				</s:NavigatorContent>
 			</mx:ViewStack>
+			
 			<s:DropDownList id="language" width="80" height="24" cornerRadius="0" textAlign="right"
 							dataProvider="{SettingDataProxy.getInstance().languageArrayCollection}"
 							selectedIndex="@{SettingDataProxy.getInstance().languageID}"
